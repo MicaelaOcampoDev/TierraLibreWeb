@@ -158,13 +158,17 @@ nav .navigation ul li a:hover{
     height: 60%;
     background-size: cover;
     background-position: center;
-
+    cursor: pointer
 }
-
+#excursion-detail .overview img{
+    cursor: pointer;
+}
+#excursion-detail .overview .excursion-head {
+    margin-top: 15px;
+}
 #excursion .excursions .details{
     padding: 15px 15px 0px 15px;
 }
-
 #excursion .excursions .cost{
     background-color: #c67c36;
     color: #f9f9ff;
