@@ -106,8 +106,9 @@ nav .navigation ul li a:hover{
 #home p{
     width: 50%;
     color: #e6dabd;
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 25px;
+    font-weight: 500;
 }
 
 #home .btn{
@@ -170,8 +171,8 @@ nav .navigation ul li a:hover{
     padding: 15px 15px 0px 15px;
 }
 #excursion .excursions .cost{
-    background-color: #c67c36;
-    color: #f9f9ff;
+    background-color: #e6dabd;
+    color: #283645;
     line-height: 70px;
     width: 70px;
     height: 70px;
@@ -186,6 +187,7 @@ nav .navigation ul li a:hover{
 #experts{
     padding: 8vw 8vw 8vw 8vw;
     text-align: center;
+    
 }
 
 #experts .expert-box{
@@ -193,11 +195,22 @@ nav .navigation ul li a:hover{
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     grid-gap: 1rem;
     margin-top: 50px;
+    
 }
-
+#experts .expert-box .profile img{
+    border-radius: 50%;
+}
+#experts .expert-box .profile h6{
+    color: #e6dabd;
+}
+#experts .expert-box .profile p{
+    font-weight: 500;
+    color: #fff;
+}
 #experts .expert-box .profile{
-    background: #fafaf1;
+    background:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7));
     padding: 30px 10px ;
+    border-radius: 5%;
 }
 
 /* footer */
@@ -314,6 +327,7 @@ footer .copy .pro-links i:hover{
     display: flex;
     align-items: center;
     padding: 8vw 8vw 2vw 8vw;
+    margin-bottom: 0;
 }
 #about-container .about-img{
     width: 60%;
@@ -365,7 +379,7 @@ footer .copy .pro-links i:hover{
 }
 
 #trust .trust-img img{
-    width: 60px;
+    width: 80px;
     margin: 10px 15px;
     height: auto;
 }
