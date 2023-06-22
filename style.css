@@ -8,6 +8,10 @@
 
 body{
     font-family: 'Roboto',sans-serif;
+    background-image: url(back.jpg);
+    background-size: auto; 
+    background-repeat:repeat; 
+
 }
 
 /* global tags */
@@ -182,7 +186,17 @@ nav .navigation ul li a:hover{
     right: 15px;
     bottom: 100px;
 }
-
+/* cards excursions */
+.card{
+    cursor: pointer;
+}
+.card img {
+    transition: opacity 0.3s ease;
+  }
+  
+  .card img:hover {
+    opacity: 0.7;
+  }
 /* profiles */
 #experts{
     padding: 8vw 8vw 8vw 8vw;
@@ -214,95 +228,49 @@ nav .navigation ul li a:hover{
 }
 
 /* footer */
-footer{
-    padding: 8vw ;
-    background-color: #283645;
+footer {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-footer .footer-col{
-    padding-bottom: 40px;
-}
-
-footer h3{
-    color: #f9f9ff;
-    font-weight: 600;
-    padding-bottom: 20px;
-}
-
-footer li{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .social-icons {
     list-style: none;
-    color:slategray;
-    padding: 10px 0;
-    font-size: 15px;
-    cursor: pointer;
-    transition: 0.3s ease;
-}
-
-footer li:hover{
-    color:#f9f9ff;
-}
-
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    color: #333;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #c67c36;
+  }
+  
 footer p{
     color:slategray;
-}
+    }
 
-footer .subscribe{
-    margin-top: 20px;
-}
-
-footer input{
-    width: 220px;
-    padding: 15px 12px;
-    background: #2d1f98;
-    border: none;
-    color: #f9f9ff;
-}
-footer .subscribe a{
-    text-decoration: none;
-    font-size: 0.9rem;
-    padding: 12px 15px;
-    background-color: #fff;
-    font-weight: 600;
-}
-footer .subscribe a.yellow{
-    color: #e6dabd;
-    background: #c67c36;
-    transition: 0.3s ease;
-}
-footer .subscribe a.yellow:hover{
-    color: #c67c36;
-    background: #e6dabd;
-}
-
-footer .copy{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    flex-wrap: wrap;
-}
-footer .copy p{
-    color: #f9f9ff;
-}
-
-footer .copy .pro-links{
-    margin-top: 0px;
-}
-
-footer .copy .pro-links i{
-   background-color: darkgray;
-   color: #fff;
-   margin-right: 8px;
-}
-footer .copy .pro-links i:hover{
-    background-color: #fff;
-    color: darkgray;
-}
 
 /* about page */
 #about-home{
@@ -573,17 +541,18 @@ footer .copy .pro-links i:hover{
     background:#2d1f98 ;
 }
 /* contact page */
-
-#contact{
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8vw;
 }
 
-#contact .getin{
+#contact .getin {
     width: 350px;
-
 }
 
-#contact .getin h2{
+#contact .getin h2 {
     color: #2d1f98;
     font-size: 30px;
     font-weight: 800;
@@ -591,40 +560,41 @@ footer .copy .pro-links i:hover{
     margin-bottom: 16px;
 }
 
-#contact .getin p{
-    color:#283645;
+#contact .getin p {
+    color: #283645;
     line-height: 24px;
     margin-bottom: 33px;
     padding-bottom: 25px;
     border-bottom: 1px solid #e5e4ed;
 }
 
-#contact .getin h3{
-    color:#2c234d;
+#contact .getin h3 {
+    color: #2c234d;
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 15px;
     line-height: 26px;
 }
 
-#contact .getin .getin-detail div{
+#contact .getin .getin-detail div {
     display: flex;
 }
 
-#contact .getin .getin-detail div .get{
+#contact .getin .getin-detail div .get {
     color: #2d1f98;
     font-size: 16px;
     line-height: 22px;
     margin-right: 20px;
 }
 
-#contact .getin .getin-detail div p{
+#contact .getin .getin-detail div p {
     font-size: 14px;
     border-bottom: none;
     line-height: 22px;
     margin-bottom: 15px;
 }
-#contact .getin .getin-detail .pro-links i{
+
+#contact .getin .getin-detail .pro-links i {
     margin-right: 8px;
 }
 
