@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tierra Libre</title>
+
+        <script src="https://kit.fontawesome.com/ac4f6c524b.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <img src="images/3TIERRALIBRE (1).png" alt="web logo"
+                onclick="window.location.href='index.html';">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fa-solid fa-xmark"></i>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="excursion.html">Excursiones</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menublanco.png"
+                    alt="menu hamburguesa">
+            </div>
+        </nav>
+        <section id="blog-container">
+            <div class="blogs blogpost">
+                <div class="post">
+                    <img src="images/equipamiento.jpg" alt>
+                    <br>
+                    <br>
+                    <h1>EQUIPAMIENTO</h1>
+                    <br>
+                    <p>Cada integrante de la expedición deberá contar con su
+                        equipo
+                        personal. Desde Tierra Libre Expediones creemos que es
+                        fundamental
+                        acompañarlos en la previa, asesorando y ayudando a
+                        elegir el
+                        equipo adecuado para cada programa. <br>
+                        El día previo al ascenso realizaremos un chequeo de
+                        equipo
+                        general, y en caso de no contar con el equipo necesario,
+                        se
+                        podrá alquilar.</p>
+
+                    <h2>A continuación les compartimos la lista de equipo
+                        personal:</h2>
+                    <p>
+                        <br>
+                        • Mochila de 60 lts o más. <br>
+                        • Bolsa de dormir de -5° confort y aislante térmico. <br>
+                        • Botas para nieve o botas de trekking (según época)<br>
+                        • 2 pares de medias: una de trekking liviana y una de
+                        abrigo.<br>
+                        • Pantalón de trekking. Calza y cubre pantalón o
+                        pantalón de
+                        esquí.<br>
+                        • Polainas impermeables para nieve (según época)<br>
+                        • 2 remeras sintéticas: una manga corta y otra manga
+                        larga
+                        térmica.<br>
+                        • Un buzo polar, una campera de plumas y una campera
+                        impermeable.<br>
+                        • 2 cuellos tipo buff, un gorro de abrigo (sin pompón) y
+                        una
+                        gorra con
+                        visera.<br>
+                        • 2 pares de guantes: primera piel tipo liner y de
+                        abrigo
+                        tipo esquí.<br>
+                        • Linterna frontal con pilas de repuesto.<br>
+                        • Bastones de trekking(opcional)<br>
+                        • Protector solar para piel y labios.<br>
+                        • Lentes de sol envolventes con protección UV (cat 3 o
+                        cat
+                        4) y antiparras para nieve (opcional).<br>
+                        • 2 bolsas de consorcio, 2 más pequeñas para residuos
+                        personales.<br>
+                        • Calzado de descanso (crocs, zapatillas de running,
+                        etc)<br>
+                        • Bebida isotónica 1,5 lts y recipientes x 2 lts total.<br>
+                        • Elementos de higiene personal.
+                        <br><br>
+                    </p>
+                    <h6>
+                        *La lista de equipamiento puede sufrir leves
+                        modificaciones de acuerdo
+                        al tipo de excursión: Trekking, Ascensos oTravesias.</h6>
+                    <br>
+                    <br>
+                    <a href="#">Leer el proximo?</a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <ul class="social-icons">
+                        <li><a
+                                href="https://www.facebook.com/TierraLibreExpediciones"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a
+                                href="https://api.whatsapp.com/send?phone=%2B54+9+2944+92-1692&text=Hola+Tierra+Libre+Expediciones%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre+sus+excursiones%21"
+                                target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a
+                                href="https://www.instagram.com/tierralibre.exp/"
+                                target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <p>Tierra Libre Expediciones - 2023</p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+        });
+
+        </script>
+    </body>
+</html>

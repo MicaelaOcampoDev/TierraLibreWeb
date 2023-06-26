@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tierra Libre</title>
+
+        <script src="https://kit.fontawesome.com/ac4f6c524b.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+            integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+            crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav>
+            <img src="images/3TIERRALIBRE (1).png" alt="web logo"
+                onclick="window.location.href='index.html';">
+            <div class="navigation">
+                <ul>
+                    <i id="menu-close" class="fa-solid fa-xmark"></i>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="excursion.html">Excursiones</a></li>
+                    <li><a href="about.html">Nosotros</a></li>
+                    <li><a href="contact.html">Contacto</a></li>
+                    <li><a class="active" href="blog.html">Blog</a></li>
+                </ul>
+                <img id="menu-btn" src="images/menublanco.png"
+                    alt="menu hamburguesa">
+            </div>
+        </nav>
+        <section id="blog-container">
+            <div class="blogs blogpost">
+                <div class="post">
+                    <img src="images/comida4.jpg" alt>
+                    <br>
+                    <br>
+                    <h1>COMIDAS!</h1>
+                    <br>
+                    <p>🍝 Porque nos gusta comer bien. Porque es necesario para
+                        encarar el ascenso con fuerza y energia. Y porque
+                        sabemos que cuando la panza está llena... el corazón
+                        está contento.. 😉
+
+                        🍷Un buen plato de comida, un postre casero y un rico
+                        vinito antes de ir a dormir.. 🍫
+                        🥧 Budines y dulces caseros, avena cereales, frutas y
+                        más, para un desayuno potente.. 💪
+                        🧀 Y una picadita de regionales para festejar cuando
+                        volvemos de la cumbre.. 🥓
+
+                        👉 Entendemos que hoy, ir a la montaña es ir a disfrutar
+                        y sabemos muy bien como hacerlo..
+
+                        📍 Y claro que adaptamos todos los menú a tus
+                        necesidades o elecciones.. ya seas celiac@, vegan@,
+                        vegetarian@, ovolactovegetarian@, carnivor@,
+                        etc.🥦🍄🥖🥩🍇
+
+                        😏 Y vos que ya sabes como es.. Que te pareció??</p>
+
+                    <a href="#">Leer el proximo?</a>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <ul class="social-icons">
+                        <li><a
+                                href="https://www.facebook.com/TierraLibreExpediciones"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a
+                                href="https://api.whatsapp.com/send?phone=%2B54+9+2944+92-1692&text=Hola+Tierra+Libre+Expediciones%2C+quisiera+m%C3%A1s+informaci%C3%B3n+sobre+sus+excursiones%21"
+                                target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a
+                                href="https://www.instagram.com/tierralibre.exp/"
+                                target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                    <p>Tierra Libre Expediciones - 2023</p>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function() {
+            $('nav .navigation ul').removeClass('active')
+        });
+
+        </script>
+    </body>
+</html>
