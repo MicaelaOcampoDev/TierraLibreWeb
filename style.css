@@ -8,10 +8,7 @@
 
 body{
     font-family: 'Roboto',sans-serif;
-    /* background-image: url(); */
-    background-size: auto; 
-    background-repeat:repeat; 
-
+    background-color: #e6dabd;
 }
 
 /* global tags */
@@ -233,7 +230,7 @@ nav .navigation ul li a:hover{
     color: #fff;
 }
 #experts .expert-box .profile{
-    background:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7));
+    background:linear-gradient(rgba(240, 100, 35, 0.3),rgba(46, 24, 4, 0.7));
     padding: 30px 10px ;
     border-radius: 5%;
 }
@@ -439,8 +436,7 @@ footer p{
 #excursion-detail h3 {
     padding: 35px 0 25px 0;
     color: #2d1f98;
-    background-color: transparent;
-    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.05);
+   
     /* display: flex;
     align-items: center;
     justify-content: center;
