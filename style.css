@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Roboto',sans-serif;
-    background-image: url(back.jpg);
+    /* background-image: url(); */
     background-size: auto; 
     background-repeat:repeat; 
 
@@ -36,6 +36,7 @@ h6{
 nav{
     position: fixed;
     width: 100%;
+    height: 15%;
     background-color: #283645;
     display: flex;
     flex-direction: row;
@@ -239,7 +240,7 @@ nav .navigation ul li a:hover{
 
 /* footer */
 footer {
-    background-color: #fff;
+    background-color: grey;
     padding: 20px;
   }
   
@@ -268,7 +269,7 @@ footer {
   
   .social-icons a {
     display: inline-block;
-    color: #333;
+    color: #e6dabd;
     font-size: 24px;
     transition: color 0.3s ease;
   }
@@ -278,7 +279,7 @@ footer {
   }
   
 footer p{
-    color:slategray;
+    color:white;
     }
 
 
@@ -354,6 +355,7 @@ footer p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #trust .trust-img img{
@@ -430,14 +432,26 @@ footer p{
     justify-content: space-between;
     align-items: flex-start;
     padding: 8vw;
-    font-weight: 700;   
+    font-weight: 700;
+   
 }
 
-#excursion-detail h3{
+#excursion-detail h3 {
     padding: 35px 0 25px 0;
     color: #2d1f98;
-}
-
+    background-color: transparent;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.05);
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto; */
+  }
+  #excursion-detail h3 img {
+    width: 30px; /* Ajusta el valor según tus necesidades */
+    height: 30px; /* Ajusta el valor según tus necesidades */
+    margin-right: 10px; /* Opcional: ajusta el margen derecho según tus necesidades */
+  }
 #excursion-detail p{
     color: black;
     font-weight: 700;
@@ -475,10 +489,12 @@ footer p{
 }
 
 #excursion-detail .overview .excursion-head .e-name .star{
-    margin: 6px 0;
+    margin: 6px 0;   
 }
 #excursion-detail .overview .excursion-head .e-name .star i{
     color: #FDC93B;
+    
+    
 }
 #excursion-detail .overview .excursion-head .e-name p{
     font-size: 15px;
@@ -516,12 +532,25 @@ footer p{
     font-size: 15px;
 }
 
-#excursion-detail .enroll{
+/* #excursion-detail .enroll{
     width: 300px;
     padding: 0 30px 30px 30px;
     border-radius: 11px;
     box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
-}
+} */
+#excursion-detail .enroll {
+    max-width: 500px; /* Establece el ancho máximo */
+    width: 100%; /* Establece el ancho al 100% del contenedor padre */
+    padding: 0 30px 30px 30px;
+    border-radius: 11px;
+    box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
 #excursion-detail .enroll h3{
     padding-bottom: 10px;
@@ -531,6 +560,8 @@ footer p{
     font-size: 15px;
     color: #3e3d43;
     margin: 15px 0;
+    text-align:  left;
+    
 }
 
 #excursion-detail .enroll p i{
@@ -540,7 +571,8 @@ footer p{
     width: 16px;
     height: 16px;
     line-height: 16px;
-    text-align: center;
+    text-align: left;
+    margin-left: 0;
 }
 #excursion-detail .enroll .enroll-btn{
     padding: 25px 0 20px 0;
@@ -557,6 +589,19 @@ footer p{
     color: #fff;
     background:#2d1f98 ;
 }
+#excursion-detail .enroll .iconos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#excursion-detail .enroll .iconos img {
+    width: 60px; /* Ajusta el valor según tus necesidades */
+    height: 60px; /* Ajusta el valor según tus necesidades */
+    margin-right: 10px; /* Opcional: ajusta el margen derecho según tus necesidades */
+    
+}
+
+  
 /* contact page */
 #contact {
     display: flex;
