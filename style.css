@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Roboto',sans-serif;
-    background-color: #e6dabd;
+    background-image: linear-gradient(to bottom, #c67c36 8%, #ffffff 100%);
 }
 
 /* global tags */
@@ -223,14 +223,14 @@ nav .navigation ul li a:hover{
 }
 #experts .expert-box .profile h6{
     margin-top: 16px;
-    color: #e6dabd;
+    color: #0e035e;
 }
 #experts .expert-box .profile p{
     font-weight: 500;
     color: #fff;
 }
 #experts .expert-box .profile{
-    background:linear-gradient(rgba(240, 100, 35, 0.3),rgba(46, 24, 4, 0.7));
+    background:linear-gradient(rgba(243, 196, 142, 0.3),rgba(46, 24, 4, 0.7));
     padding: 30px 10px ;
     border-radius: 5%;
 }
@@ -460,7 +460,7 @@ footer p{
 }
 
 #excursion-detail .overview{
-    width: 70%;
+    width: 100%;
 
 }
 
@@ -515,6 +515,7 @@ footer p{
 
 #excursion-detail .tutor{
     display: flex;
+    
 }
 
 #excursion-detail .tutor img{
@@ -532,7 +533,7 @@ footer p{
     position: relative;
     width: 100%;
     height: 300px;
-    padding-bottom: 56.25%; /* Proporción de aspecto 16:9 (dividir la altura por el ancho y multiplicar por 100) */
+    /* padding-bottom: 56.25%; Proporción de aspecto 16:9 (dividir la altura por el ancho y multiplicar por 100) */
     overflow: hidden;
   }
   
@@ -633,7 +634,7 @@ footer p{
     line-height: 24px;
     margin-bottom: 33px;
     padding-bottom: 25px;
-    border-bottom: 1px solid #e5e4ed;
+    border-bottom: 1px solid #0e035e;
     font-weight: 800;
 }
 
