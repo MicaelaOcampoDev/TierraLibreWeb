@@ -154,7 +154,7 @@ nav .navigation ul li a:hover{
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 9999;
     justify-content: center;
-    align-items: center;
+    align-items: center;""
   }  
   .open-popup {
     color: #e6dabd;
@@ -236,7 +236,7 @@ nav .navigation ul li a:hover{
     padding: 15px 15px 0px 15px;
 }
 #excursion .excursions .cost{
-    background-color: #283645;
+    background-color: #3a40b4;
     color:  #e6dabd;
     line-height: 70px;
     width: 70px;
@@ -303,7 +303,7 @@ nav .navigation ul li a:hover{
     color: #fff;
 }
 #experts .expert-box .profile{
-    background:linear-gradient(rgba(243, 196, 142, 0.3),rgba(46, 24, 4, 0.7));
+    background:linear-gradient(7deg, rgba(182,77,34,1) 0%, rgba(223,179,85,1) 100%);
     padding: 30px 10px ;
     border-radius: 5%;
 }
